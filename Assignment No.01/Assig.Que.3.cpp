@@ -1,3 +1,10 @@
+// Q3. Write a menu driven program for Student in CPP language. Create a class student with data
+// members roll no, name and marks. Implement the following functions
+// void initStudent();
+// void printStudentOnConsole();
+// void acceptStudentFromConsole();
+
+
 #include <iostream>
 using namespace std;
 
@@ -55,7 +62,7 @@ int main()
         cout << "0. EXIT" << endl;
         cout << "1. acceptStudentFromConsole" << endl;
         cout << "2. printStudentOnConsole" << endl;
-        cout<<"---------------------"<<endl;
+        cout<<"====================="<<endl;
         cout<<"Enter choice"<<endl;
         cin >> choice;
         cout << "=====================" << endl;
