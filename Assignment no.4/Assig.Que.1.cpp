@@ -43,7 +43,8 @@ void pop(){
     }
     else
     {
-    ptr[--top];
+    ptr[top]= -1;
+    --top;
     }
 }
 
@@ -84,6 +85,7 @@ int main (){
     stack s1(5);
     int choice;
 do{
+    cout<<endl;
     cout<<"Enter 0 for Exit"<<endl;
     cout<<"Enter 1 to push elements"<<endl;
     cout<<"Enter 2 to pop elements "<<endl;
